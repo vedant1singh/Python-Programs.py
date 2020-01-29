@@ -266,3 +266,56 @@ else:
 #Output:-
 Enter the year : 2100
 2100 is not a leap year.
+
+19. To determine whether the character entered is a vowel or not:-
+
+ch = input("Enter a character : ")
+if (ch =="A" or ch =="I" or ch =="E" or ch =="O" or ch =="U"):
+    print(ch, "is a vowel.")
+elif(ch =="a" or ch =="e" or ch =="i" or ch =="o" or ch =="u"):
+    print(ch, "is a vowel.")
+else:
+    print(ch, "is not a vowel.")
+    
+#Output:-
+Enter a character : I
+I is a vowel.
+
+20. To calculate roots of a quadraatic equation:-
+
+a = int(input("Enter the value of a : "))
+b = int(input("Enter the value of b : "))
+c = int(input("Enter the value of c : "))
+d = (b*b)-(4*a*c)
+deno = 2*a
+if(d>0):
+    print("Real Roots")
+    x = (-b + d**0.5)/deno
+    y = (-b - d**0.5)/deno
+    print("Roots of quadratic equations are : ", x, y)
+elif(d==0):
+    print("Equal Roots")
+    x = (-b)/deno
+    print("Roots of quadratic equation are : ", x, x)
+else:
+    print("Roots of quadratic equation are imaginary.")
+    
+#Output:-
+Enter the value of c : 64
+Real Roots
+Roots of quadratic equations are :  -0.5790627287701454 -4.420937271229855
+
+21. To calculate sum and avergae of first 10 numbers:- 
+
+i = 0
+s = 0
+while(i<=10):
+    s += i
+    i +=1
+avg = s//10
+print(s, "is sum  of first 10 numbers.")
+print(avg, "is average of first 10 numbers.")
+
+#Output:-
+55 is sum  of first 10 numbers.
+5 is average of first 10 numbers.
