@@ -112,3 +112,51 @@ Enter first side of triangle : 12
 Enter second side of triangle : 18
 Enter third side of triangle : 10
 Area of triangle + 56.568542494923804
+
+8. To find distance between two points:-
+
+x1 = int(input("Enter the coordinates of x1 = "))
+y1 = int(input("Enter the coordinates of y1 = "))
+x2 = int(input("Enter the coordinates of x2 = "))
+y2 = int(input("Enter the coordinates of y2 = "))
+d = ((x1- x2)**2 + (y1-y2)**2)**0.5
+print("Distance : " + str(d))
+
+#Output:-
+Enter the coordinates of x1 = 4
+Enter the coordinates of y1 = 5
+Enter the coordinates of x2 = 6
+Enter the coordinates of y2 = 1
+Distance : 4.47213595499958
+
+9. To demonstrate relational operator:-
+
+x = 10
+y = 20
+print(str(x) + " > " +str(y) + " = " +str(x>y) )
+print(str(x) + " < " +str(y) + " = " +str(x<y) )
+print(str(x) + " == "+str(y) + " = " +str(x==y) )
+print(str(x) + " != "+str(y) + " = " +str(x!=y) )
+print(str(x) + " >= "+str(y) + " = " +str(x>=y) )
+print(str(x) + " <= "+str(y) + " = " +str(x<=y) )
+
+#Output:- 
+10 > 20 = False
+10 < 20 = True
+10 == 20 = False
+10 != 20 = True
+10 >= 20 = False
+10 <= 20 = True
+
+10. To calculate area and circumference of circle:-
+
+r = int(input("Enter radius of circle : "))
+area = 3.14 *(r**2)
+circum = 2 * 3.14 * r
+print("Area of circle : " + str(area))
+print("Circumference of circle : ", circum )
+
+#Output:- 
+Enter radius of circle : 7
+Area of circle : 153.86
+Circumference of circle :  43.96
