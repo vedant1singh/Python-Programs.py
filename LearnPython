@@ -1,0 +1,114 @@
+#Learn how to code in python by basic python programs
+
+1. A Hello World program:- 
+
+a = "Hello World"
+print(a)
+print("Hello World")
+
+#output:-
+Hello World 
+Hello World
+
+2. To print a string and a integer:-
+
+Name = "Vedant Singh"
+SapID = 500071252
+Rollno = 68
+Course = "BCA"
+Semester = "IV"
+print("Name : ", Name)
+print("SapID : ", SapID)
+print("Roll no : ", Rollno)
+print("Course : ", Course)
+print("Semester: ", Semester)
+
+#output:-
+Name :  Vedant Singh
+SapID :  500071252
+Roll no :  68
+Course :  BCA
+Semester:  IV
+
+3. To print different data types using variables:-
+
+num = 7
+amt = 123.45
+code = "A"
+pi = 3.14154664
+c = 1000000000
+msg = "Hi"
+print("Num = ", + num)
+print("\nAmt = ", +amt)
+print("\nCode = ",  str(code))
+print("\nPi = ", +pi)
+print("\nC = ", + c)
+print("\nMsg = ",  str(msg))
+
+#output
+Num =  7
+Amt =  123.45
+Code =  A
+Pi =  3.14154664
+C =  1000000000
+Msg =  Hi
+
+4. To read a value from user:-
+
+a = input("What is your name : ")
+b = int(input("Enter your age : "))
+print("Your name is ", a , "and your age is ", b)
+
+#output:-
+What is your name : Vedant Singh
+Enter your age : 21
+Your name is  Vedant Singh and your age is  21
+
+5. To perform basic mathematical operation:-
+
+a = int(input("Enter first number : "))
+b = int(input("Enter second number : "))
+c = a+b
+d = a-b
+e = a*b
+f = a//b
+print("Addition :  ", c)
+print("Subtraction : ", d)
+print("Multiplication : ", e)
+print("Division : ", f)
+
+#output:-
+Enter first number : 10
+Enter second number : 5
+Addition of a and b are :   15
+Subtraction of a and b are :  5
+Multiplication of a and b are :  50
+Division of a and b are :  2
+
+6. To display a number equivalent to hex and octal quivalent and its square root:-
+
+num = int(input("Enter a number : "))
+print("Hexadecimal of " + str(num) + " : " + str(hex(num)))
+print("Octadecimal of " + str(num) + " : " + str(oct(num)))
+print("Square root of " + str(num) + " : " + str(num**0.5))
+
+#Output:-
+Enter a number : 100
+Hexadecimal of 100 : 0x64
+Octadecimal of 100 : 0o144
+Square root of 100 : 10.0
+
+7. To find area of traingle using heron's formula:-
+
+a = int(input("Enter first side of triangle : "))
+b = int(input("Enter second side of triangle : "))
+c = int(input("Enter third side of triangle : "))
+s = (a+b+c)/2
+area = (s*(s-a)*(s-b)*(s-c))**0.5
+print("Area of triangle + " + str(area))
+
+#Output:-
+Enter first side of triangle : 12
+Enter second side of triangle : 18
+Enter third side of triangle : 10
+Area of triangle + 56.568542494923804
