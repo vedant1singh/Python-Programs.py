@@ -319,3 +319,38 @@ print(avg, "is average of first 10 numbers.")
 #Output:-
 55 is sum  of first 10 numbers.
 5 is average of first 10 numbers.
+
+22. To read the numbers until -1 is encountered and read the number of postive, negative, and zeroes:-
+
+print("Enter -1 to exit....")
+p = n = z = 0
+while(1):
+    a = int(input("Enter a number : "))
+    if(a==-1):
+        break
+    elif(a==0):
+        z = z+1
+    elif(a<=0):
+        n = n-1
+    else:
+        p = p+1
+print("Nmber of zeroes : ", z)
+print("Number of positives : ", p)
+print("Number of negatives : ", n)
+
+#Output:-
+Enter -1 to exit....
+Enter a number : 8
+Enter a number : 0
+Enter a number : 5
+Enter a number : -4
+Enter a number : -5
+Enter a number : 0
+Enter a number : 0
+Enter a number : 89
+Enter a number : 0
+Enter a number : -1
+Nmber of zeroes :  4
+Number of positives :  3
+Number of negatives :  -2
+*******************************************Thank You Gentlemen***************************************************
