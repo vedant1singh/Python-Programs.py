@@ -353,4 +353,137 @@ Enter a number : -1
 Nmber of zeroes :  4
 Number of positives :  3
 Number of negatives :  -2
+
+23. To find whether a given number is Amstrong number or not:-
+
+a = int(input("Enter a number : "))
+s = 0
+num = a
+while (a>0):
+    r = a%10
+    s = s + (r**3)
+    a = a//10
+if (s ==num):
+    print("The number is Amrstrong. ")
+else:
+    print("The number is not Armstrong.")
+
+#Output:-
+Enter a number : 153
+The number is not Armstrong.
+
+24. To enter a number and calculate the sum of its digits:-
+
+k = 0
+n = int(input("Enter a number : "))
+while (n>0):
+    r = n%10
+    k = k + r
+    n = n//10
+print("Sum of digits is", k)
+
+#Output:-
+Enter a number : 123
+Sum of digits is 6
+
+25. To reverse a number:-
+
+a = int(input("Enter a number : "))
+rev = 0
+while(a>0):
+    r = a%10
+    print(r, end ="")
+    a = a//10
+
+#Output:-
+Enter a number : 741
+147
+
+26. To find sum of first n natural numbers:-
+
+n = int(input("Enter a number : "))
+s = 0
+for i in range(1, n+1):
+    s = s+i
+avg= (s)/n
+print("Average of first", n , "number are", avg)
+
+#Output:-
+Enter a number : 10
+Average of first 10 number are 5.5
+
+27. To calculate factorial of a number:-
+
+num = int(input("Enter a number : "))
+fact = 1
+for i in range(1, num+1):
+    fact = fact*i
+print("Factorial of ", num, "is",fact )
+
+#Output:-
+Enter a number : 5
+Factorial of  5 is 120
+
+28. To find whether the given number is prime or composite:-
+
+a = int(input("Enter a number : "))
+c = 0
+for i in range(2, a):
+    if(a%i==0):
+        c =1
+        break
+if(c ==1):
+    print(a, "is a composite number.")
+else:
+    print(a, "is a prime number.")
+
+#Output:-
+Enter a number : 13
+13 is a prime number.
+
+29. To take input untill -1 is encountred, and also count prime and compsite number:-
+
+s = 0
+p = c = 0
+print("Enter -1 to exit the loop.....")
+while(1):
+    a = int(input("Enter a number : "))
+    if(a==-1):
+        break
+    for i in range(2, a):
+        if(a%i==0):
+            c+=1
+            break
+    else:
+        p +=1
+print("Number of composite numbers: ", c)
+print("Number of prime numbers: ", p)
+
+#Output:-
+Enter a number : 2
+Enter a number : 3
+Enter a number : 4
+Enter a number : 5
+Enter a number : 6
+Enter a number : 7
+Enter a number : 8
+Enter a number : 9
+Enter a number : 10
+Enter a number : 11
+Enter a number : -1
+Number of composite numbers:  5
+Number of prime numbers:  5
+
+30. To find whether the given year  is leap year or not:-
+
+year = int(input("Enter the year : "))
+if(year%4==0):
+    print(year, " is a leap year.")
+else:
+    print(year, "is not a leap year.")
+    
+#Output:-
+Enter the year : 2100
+2100  is a leap year.
+
 *******************************************Thank You Gentlemen***************************************************
