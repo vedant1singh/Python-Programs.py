@@ -603,5 +603,48 @@ Output:-
  1234
 12345
 
+32. To check the greater number among two using function:-
+
+def great(a, b):
+    if(a==b):
+        return 0
+    elif(a>b):
+        return 1
+    else:
+        return -1
+a = int(input("Enter the value of a : "))
+b = int(input("Enter the value of b : "))
+r = great(a, b)
+if(r ==0):
+    print("a is equal to b")
+elif(r==1):
+    print("a is greater than b")
+else:
+    print("b is greater than a ")
+
+#Output:-
+Enter the value of a : 34
+Enter the value of b : 9
+a is greater than b
+
+33. To swap two numbers using a function:-
+
+def swap(a, b):
+    a, b = b, a
+    print("After swap : ")
+    print("First number = ", a)
+    print("Second number = ", b)
+print("Before Swap")
+a = int(input("First number = "))
+b = int(input("Second number = "))
+swap(a, b)
+
+#Output:-
+Before Swap
+First number = 5
+Second number = 7
+After swap : 
+First number =  7
+Second number =  5
 
 *******************************************Thank You Gentlemen***************************************************
