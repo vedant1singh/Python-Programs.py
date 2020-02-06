@@ -647,4 +647,44 @@ After swap :
 First number =  7
 Second number =  5
 
+34. To convert the hours into minutes:-
+
+def time(hrs, minute):
+    r = (hrs*60) + minute
+    return r
+hrs = int(input("Enter how many hours : "))
+minute = int(input("Enter how many minutes : "))
+print(time(hrs, minute))
+
+#Output:-
+Enter how many hours : 2
+Enter how many minutes : 10
+130
+
+35. To find sum of number using variable lenth arguments:-
+
+def add(*args):
+    sum = 0
+    for i in args:
+        sum += i
+    return  sum
+print(add(12,32,45))
+
+#Output:-
+89
+
+36. To find the factorial of a number using factorial:-
+
+def fact(n):
+    if(n==1 or n==0):
+        return 1
+    else:
+        return n*fact(n-1)
+n = int(input("Enter a value : "))
+print("The factorial of", n , "is", fact(n))
+
+#Output:-
+Enter a value : 5
+The factorial of 5 is 120
+
 *******************************************Thank You Gentlemen***************************************************
