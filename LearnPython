@@ -768,4 +768,22 @@ Output:-
    ****
   *****
  ******
+ 
+ 42. To draw number patterns
+ 
+ a = 6
+for i in range(0, a):
+    for j in range(0, i):
+        print(i, end = ' ')
+    print()
+    
+ OutPut:- 
+ 
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+ 
+ 
 *******************************************Thank You Gentlemen***************************************************
