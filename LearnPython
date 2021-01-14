@@ -785,5 +785,17 @@ for i in range(0, a):
 4 4 4 4 
 5 5 5 5 5 
  
+ 43. To swap the case of a string
  
+ s = "HappY BirthdDay To yOU"
+ result = ""
+    for i in s:
+        if i==i.lower() :
+            result += i.upper()
+        else:
+            result += i.lower()
+    print(result)
+    
+   Output:-
+   hAPPy bIRTHdAY tO You
 *******************************************Thank You Gentlemen***************************************************
