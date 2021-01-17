@@ -798,4 +798,16 @@ for i in range(0, a):
     
    Output:-
    hAPPy bIRTHdAY tO You
+   
+  44. To change a character in a string
+  
+  s = 'djsanfwvc'
+  l = list(s)
+  l[2]= "o"
+  s = "".join(l)
+  print(s)
+  
+  Output:-
+  djoanfwvc
+
 *******************************************Thank You Gentlemen**********************************************************
