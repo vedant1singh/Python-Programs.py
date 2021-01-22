@@ -4,11 +4,11 @@
 
 a = "Hello World"
 print(a)
-print("Hello World")
+print("Hello Worl")
 
 #output:-
 Hello World 
-Hello World
+Hello Worl
 
 2. To print a string and a integer:-
 
