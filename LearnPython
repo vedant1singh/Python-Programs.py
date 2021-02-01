@@ -833,4 +833,22 @@ Output:-
 2
 3
 0.16
+
+46. To draw the pattern
+    #
+   ##
+  ###
+ ####
+n = 4
+for k in range(1, n+1):
+        for i in range(n-k,0, -1):
+            print(" ", end = "")
+        for j in range(0, k):
+            print("#", end = "")
+        print()
+Outputl:- 
+    #
+   ##
+  ###
+ ####
 *************************************************Thank You Gentlemen************************************************************
