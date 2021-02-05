@@ -850,5 +850,14 @@ Outputl:-
     #
    ##
   ###
+ ####
+ 
+ 47. To make a nested list
+    marks = []
+    for i in range(int(input())):
+        name = input()
+        score = float(input())
+        marks.append([name, score])
+    print(marks)
 
 *************************************************Thank You Gentlemen*****************************************************************************
